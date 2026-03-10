@@ -1,0 +1,119 @@
+:root {
+    --color-hfazul: lightblue;
+    --color-hfverde: green;
+    --color-hfrojo: red;
+}
+
+body {
+    background-color: black;
+}
+
+div {
+    background-color: rgb(151, 67, 67);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.lineales {
+    display: flex;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    background-color: var(--color-hfazul);
+    width: 100%;
+    height: 100px;
+}
+
+h2, #footer-text {
+    margin: 0;
+    padding: 30px 0px 0px 20px;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+
+
+}
+
+footer {
+    background-color: var(--color-hfazul);
+    width: 100%;
+    height: 100px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+h5 {
+    padding: 20px 0px 0px 10px;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 25px;
+    font-style: italic;
+    background-color: burlywood;
+    padding-top: 5px;
+}
+
+#homero {
+    width: 200px;
+    height: 200px;
+    margin: 0px 0px 40px 150px;
+}
+
+#comparacion, #raiz {
+    width: 40px;
+    height: 40px;
+    margin: 0px 20px 20px;
+}   
+
+#width, #height, #totales, #precio {
+    width: 60px;
+    height: 30px;
+    margin: 20px 20px;
+    background-color: black;
+    color: white;
+}
+
+#textcomp1, #textcomp2, #textcontar, #numero, #resultado {
+    width: 200px;
+    height: 30px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+p, li{
+    color: black;
+    font-weight: 800;
+    margin: 30px 0px;
+}
+
+input[type="radio"]{
+    accent-color: black;
+}
+
+h6 {
+    color: black;
+    font-weight: 800;
+    margin: 30px 0px;
+    font-size: 25px;
+    font-family: "Funnel Sans", sans-serif;
+}
+
+li{
+    font-family: "Funnel Sans", sans-serif;
+    padding: 5px;
+}
+
+#cafe {
+    width: 300px;
+    height: 200px;
+    margin: 20px 0px 20px 20px;
+}

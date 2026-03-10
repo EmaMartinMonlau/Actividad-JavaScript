@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup JS</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Science+Gothic:wght@100..900&family=Tiny5&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Honk:MORF@15&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/javascript.png" alt="Logo">
+        <h2>TESTING WEB</h2>
+    </header>
+    <section>
+        <div>
+            <h5>Comparador de textos</h5>
+            <textarea id="textcomp1" placeholder="Texto 1"></textarea>
+            <img id= "comparacion" src="imagenes/desigual.png" alt="Comparar">
+            <textarea id="textcomp2" placeholder="Texto 2"></textarea>
+        </div>
+        <div>
+            <h5>Contar hasta 30 letras</h5>
+            <div class="lineales">
+                <textarea id="textcontar" placeholder="Escriba aqui" maxlength="30"></textarea>
+                <textarea id="totales" placeholder="0"></textarea>
+                <p>LETRAS</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h5>Cambio de color del header</h5>
+                <ul class="lineales">
+                    <li>
+                        <label>
+                            <input type="radio" name="headerColor" value="rojo">ROJO
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="headerColor" value="verde">VERDE
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="headerColor" value="azul" checked>AZUL
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h5>Cambio de color del footer</h5>
+                <ul class="lineales">
+                    <li>
+                        <label>
+                            <input type="radio" name="footerColor" value="rojo">ROJO
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="footerColor" value="verde">VERDE
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="footerColor" value="azul" checked>AZUL
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h5>Cambio de tamaño</h5>
+            <div class="lineales">
+                <p>Altura</p>
+                <textarea id="height" placeholder=""></textarea>
+                <p>Ancho</p>
+                <textarea id="width" placeholder=""></textarea>
+                <img id="homero" src="imagenes/homero.png" alt="Homero">
+            </div>
+        </div>
+        <div>
+            <h5>Raiz cuadrada</h5>
+            <textarea id="numero" placeholder="Ingrese un número"></textarea>
+            <img id="raiz" src="imagenes/raiz.png" alt="Raiz">
+            <textarea id="resultado" placeholder="Resultado"></textarea>
+        </div>
+        <div>
+            <h5>Gestión de una cafetería</h5>
+            <div class="lineales">
+                <div>
+                    <h6>BEBIDA</h6>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="radio" name="bebida">CAFÉ
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="bebida">TE
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h6>COMPLEMENTO</h6>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="radio" name="complemento">Sin leche
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="complemento">Leche
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="complemento">Leche sin lactosa
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h6>EXTRAS</h6>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="radio" name="extras">Sin extras
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="extras">Muffin
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="extras">Galleta
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h6>VASO</h6>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="radio" name="vaso">
+                                Propio - 5% Descuento
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="vaso">
+                                Plástico - 5% Recargo
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="vaso">
+                                Sit in
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <img id="cafe" src="imagenes/cafeteria1.png" alt="cafeteria">
+            </div>
+            <div class="lineales">
+                <p>PRECIO TOTAL</p>
+                <textarea id="precio" placeholder=""></textarea>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p id="footer-text">EMANUEL MARTIN - DAW 2026</p>
+     </footer>
+</body>
+
+</html>
